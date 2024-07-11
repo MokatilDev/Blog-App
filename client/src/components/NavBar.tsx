@@ -32,11 +32,11 @@ function NavBar() {
                 </ul>
 
                 <div className="flex gap-2 justify-center items-center">
-                    <Link className=" bg-mainButton border border-main font-medium py-2 px-5" to={"sign-up"}>
+                    <Link className=" bg-mainButton rounded  border border-main font-medium py-2 px-5" to={"sign-up"}>
                         Sign Up
                     </Link>
 
-                    <Link className=" bg-white border text-black font-medium py-2 px-5" to={"sign-in"}>
+                    <Link className=" bg-white border rounded  text-black font-medium py-2 px-5" to={"sign-in"}>
                         Sign In
                     </Link>
                 </div>

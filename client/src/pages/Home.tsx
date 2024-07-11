@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div className=" container grid grid-cols-2  flex-wrap mt-10 gap-10">
-        <div className="bg-mainButton px-5 py-5 border border-main cursor-pointer">
+        <div className="bg-mainButton rounded  px-5 py-5 border border-main cursor-pointer">
           <div className=" flex gap-2 items-center">
             <img src={filePenLine} alt="Start Writings" className="w-6" />
             <h1 className="font-medium text-lg">Start Writings</h1>
@@ -24,7 +24,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="bg-mainButton px-5 py-5 border border-main cursor-pointer">
+        <div className="bg-mainButton rounded  px-5 py-5 border border-main cursor-pointer">
           <div className=" flex gap-2 items-center">
             <img src={book} alt="Start Writings" className="w-6" />
             <h1 className="font-medium text-lg">Manage Your Blogs</h1>
@@ -41,7 +41,7 @@ function Home() {
         </h1>
 
         <div className=" mt-5 gap-4 grid grid-cols-3">
-          <div className="bg-mainButton px-5 py-5 border border-main cursor-pointer">
+          <div className="bg-mainButton rounded  px-5 py-5 border border-main cursor-pointer">
             <h1 className=" font-semibold mb-3">10 Tips for Better Coding</h1>
             <p className=" text-second">
               Improve your coding skills with these essential tips...
@@ -49,7 +49,7 @@ function Home() {
             <p className=" underline text-blue-300 mt-2">Read more</p>
           </div>
 
-          <div className="bg-mainButton px-5 py-5 border border-main cursor-pointer">
+          <div className="bg-mainButton rounded  px-5 py-5 border border-main cursor-pointer">
             <h1 className=" font-semibold mb-3">The Future of AI</h1>
             <p className=" text-second">
               Exploring the potential impacts of artificial intelligence...
@@ -57,7 +57,7 @@ function Home() {
             <p className=" underline text-blue-300 mt-2">Read more</p>
           </div>
 
-          <div className="bg-mainButton px-5 py-5 border border-main cursor-pointer">
+          <div className="bg-mainButton rounded  px-5 py-5 border border-main cursor-pointer">
             <h1 className=" font-semibold mb-3">Web Development Trends 2024</h1>
             <p className=" text-second">
               Stay ahead with the latest web development trends...
